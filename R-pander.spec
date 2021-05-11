@@ -4,7 +4,7 @@
 #
 Name     : R-pander
 Version  : 0.6.3
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/pander_0.6.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pander_0.6.3.tar.gz
 Summary  : An R 'Pandoc' Writer
@@ -39,10 +39,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609786942
+export SOURCE_DATE_EPOCH=1620764238
 
 %install
-export SOURCE_DATE_EPOCH=1609786942
+export SOURCE_DATE_EPOCH=1620764238
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -150,3 +150,4 @@ R CMD check --no-manual --no-examples --no-codoc pander || :
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/R/library/pander/libs/pander.so
+/usr/lib64/R/library/pander/libs/pander.so.avx2
