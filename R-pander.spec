@@ -4,7 +4,7 @@
 #
 Name     : R-pander
 Version  : 0.6.4
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/pander_0.6.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pander_0.6.4.tar.gz
 Summary  : An R 'Pandoc' Writer
